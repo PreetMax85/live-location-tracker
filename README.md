@@ -2,6 +2,9 @@
 
 A real-time live location tracking system where authenticated users can share their current location and see other users moving on a map. Built with a focus on high-throughput architecture using Kafka and WebSockets.
 
+## 🎥 Demo Video
+[Youtube Video Link](https://youtu.be/-ywoyygui6M)
+
 ## 🚀 Tech Stack
 - **Backend**: Node.js, Express, Socket.IO
 - **Event Streaming**: Kafka (KafkaJS)
@@ -64,9 +67,6 @@ Terminal 2 (DB Processor):
 ```bash
 node database-processor.js
 ```
-
-## 🎥 Demo Video
-[Link to your YouTube Demo Video here]
 
 ## 📝 Assumptions & Limitations
 - The OIDC provider is assumed to be accessible at the provided URL.
